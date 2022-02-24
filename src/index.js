@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+const DATA = [
+  { id: "todo-0", title: "Coding", desc:"DO coding", complete:true},
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App taskdata={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,31 @@
+.taskcont{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    margin-bottom: 2rem;
+}
+.taskname{
+    height: 100%;
+    width: 50%;
+    color: #003979 ;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.taskbuttons{
+    width: 50%;
+    display: flex;
+    gap: 8px;
+}
